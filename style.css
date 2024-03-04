@@ -1,0 +1,108 @@
+@import url("http://cdn.web-fonts.ge/fonts/bpg-nino-mkhedruli-bold/css/bpg-nino-mkhedruli-bold.min.css");
+
+body {
+    font-family: "BPG Nino Mkhedruli Bold", sans-serif;
+    user-select: none;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+#text {
+    font-size: 26px;
+    text-align: center;
+}
+#container {
+    background-color: #66A182;
+    height: 400px;
+    width: 350px;
+    margin: auto;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 4%;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 25px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+#box {
+    margin: auto;
+}
+#number {
+    color: #ffffff;
+    text-align: center;
+    font-size: 34px;
+    opacity: 90%;
+}
+#controls {
+    margin-top: 150px;
+}
+#plus {
+    margin: auto;  
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    border-style: none;
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#plus:hover {
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.329);;
+    
+  }
+#plus:active {
+    background-color: rgba(255,255,255,0.175);
+    width: 90px;
+    height: 90px;
+  }
+
+#reset {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "BPG Nino Mkhedruli Bold", sans-serif;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    border-style: none;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#reset:hover{
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.329);;
+    
+}
+#reset:active {
+   background-color: rgba(255,255,255,0.175);
+    
+  }
+#minus {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    border-style: none;
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+#minus:hover{
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.329);;
+    
+}
+#minus:active {
+    background-color: rgba(255,255,255,0.175);
+    
+}
